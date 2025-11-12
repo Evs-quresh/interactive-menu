@@ -29,13 +29,13 @@ const MODEL_ASSETS: ModelAsset[] = [
     glbUrl:
       "https://res.cloudinary.com/doo17a9l2/image/upload/v1762872988/text-to-3d-model_3d_7_pxkl2k.glb",
     posterUrl:
-      "https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?auto=format&fit=crop&w=640&q=80",
+      "https://res.cloudinary.com/doo17a9l2/image/upload/v1762940127/Screenshot_2025-11-12_143334_fzhp3e.png",
     updatedAt: "2 hours ago",
     fileSize: "9.2 MB",
     polygonCount: "64k",
     itemName: "Lunar Meringue Dome",
     itemImage:
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/doo17a9l2/image/upload/v1762940127/Screenshot_2025-11-12_143334_fzhp3e.png",
     itemDescription:
       "A theatrical dessert reveal featuring citrus meringue and liquid nitrogen fog. Guests can rotate the dome to see plating angles.",
     itemHighlights: [
@@ -44,63 +44,63 @@ const MODEL_ASSETS: ModelAsset[] = [
       "Requires 4-inch platter",
     ],
   },
-  {
-    id: "mdl-pasta",
-    name: "Tagliatelle Plate",
-    category: "Pasta",
-    glbUrl:
-      "https://res.cloudinary.com/doo17a9l2/image/upload/v1762872988/text-to-3d-model_3d_7_pxkl2k.glb",
-    posterUrl:
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=640&q=80",
-    updatedAt: "Yesterday",
-    fileSize: "6.4 MB",
-    polygonCount: "42k",
-    itemName: "Truffle Tagliatelle",
-    itemImage:
-      "https://images.unsplash.com/photo-1514516345957-556c5fbf6155?auto=format&fit=crop&w=800&q=80",
-    itemDescription:
-      "Fresh pasta twirled with mascarpone cream and shaved black truffle. The 3D model helps guests appreciate the tableside toss.",
-    itemHighlights: [
-      "Shaved tableside",
-      "Contains dairy",
-      "Recommended wine pairing: Barolo",
-    ],
-  },
-  {
-    id: "mdl-mocktail",
-    name: "Garden Spritz Glassware",
-    category: "Beverages",
-    glbUrl: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
-    posterUrl:
-      "https://images.unsplash.com/photo-1563371351-e53ebb744a1b?auto=format&fit=crop&w=640&q=80",
-    updatedAt: "Oct 12",
-    fileSize: "4.1 MB",
-    polygonCount: "25k",
-    itemName: "Herbal Citrus Spritz",
-    itemImage:
-      "https://images.unsplash.com/photo-1514361892635-6e122620e748?auto=format&fit=crop&w=800&q=80",
-    itemDescription:
-      "Zero-proof spritz with charred grapefruit, rosemary smoke, and dehydrated citrus wheel. The 3D asset demonstrates garnish placement.",
-    itemHighlights: ["Zero-proof", "Smoked rosemary", "Served on crushed ice"],
-  },
-  {
-    id: "mdl-burger",
-    name: "Stacked Wagyu Burger",
-    category: "Burgers",
-    glbUrl:
-      "https://modelviewer.dev/shared-assets/models/ShopifyModels/Chair.glb",
-    posterUrl:
-      "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=640&q=80",
-    updatedAt: "Sep 28",
-    fileSize: "7.8 MB",
-    polygonCount: "58k",
-    itemName: "Wagyu Ember Burger",
-    itemImage:
-      "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=800&q=80",
-    itemDescription:
-      "Double-stacked wagyu patties, ember-grilled onions, and aged cheddar. Customers view layers and presentation in 3D.",
-    itemHighlights: ["Contains gluten", "Served medium", "Add truffle fries"],
-  },
+  // {
+  //   id: "mdl-pasta",
+  //   name: "Tagliatelle Plate",
+  //   category: "Pasta",
+  //   glbUrl:
+  //     "https://res.cloudinary.com/doo17a9l2/image/upload/v1762872988/text-to-3d-model_3d_7_pxkl2k.glb",
+  //   posterUrl:
+  //     "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=640&q=80",
+  //   updatedAt: "Yesterday",
+  //   fileSize: "6.4 MB",
+  //   polygonCount: "42k",
+  //   itemName: "Truffle Tagliatelle",
+  //   itemImage:
+  //     "https://images.unsplash.com/photo-1514516345957-556c5fbf6155?auto=format&fit=crop&w=800&q=80",
+  //   itemDescription:
+  //     "Fresh pasta twirled with mascarpone cream and shaved black truffle. The 3D model helps guests appreciate the tableside toss.",
+  //   itemHighlights: [
+  //     "Shaved tableside",
+  //     "Contains dairy",
+  //     "Recommended wine pairing: Barolo",
+  //   ],
+  // },
+  // {
+  //   id: "mdl-mocktail",
+  //   name: "Garden Spritz Glassware",
+  //   category: "Beverages",
+  //   glbUrl: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
+  //   posterUrl:
+  //     "https://images.unsplash.com/photo-1563371351-e53ebb744a1b?auto=format&fit=crop&w=640&q=80",
+  //   updatedAt: "Oct 12",
+  //   fileSize: "4.1 MB",
+  //   polygonCount: "25k",
+  //   itemName: "Herbal Citrus Spritz",
+  //   itemImage:
+  //     "https://images.unsplash.com/photo-1514361892635-6e122620e748?auto=format&fit=crop&w=800&q=80",
+  //   itemDescription:
+  //     "Zero-proof spritz with charred grapefruit, rosemary smoke, and dehydrated citrus wheel. The 3D asset demonstrates garnish placement.",
+  //   itemHighlights: ["Zero-proof", "Smoked rosemary", "Served on crushed ice"],
+  // },
+  // {
+  //   id: "mdl-burger",
+  //   name: "Stacked Wagyu Burger",
+  //   category: "Burgers",
+  //   glbUrl:
+  //     "https://modelviewer.dev/shared-assets/models/ShopifyModels/Chair.glb",
+  //   posterUrl:
+  //     "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=640&q=80",
+  //   updatedAt: "Sep 28",
+  //   fileSize: "7.8 MB",
+  //   polygonCount: "58k",
+  //   itemName: "Wagyu Ember Burger",
+  //   itemImage:
+  //     "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=800&q=80",
+  //   itemDescription:
+  //     "Double-stacked wagyu patties, ember-grilled onions, and aged cheddar. Customers view layers and presentation in 3D.",
+  //   itemHighlights: ["Contains gluten", "Served medium", "Add truffle fries"],
+  // },
 ];
 
 const FILTERS = ["All", "Desserts", "Pasta", "Beverages", "Burgers"];
