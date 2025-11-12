@@ -27,8 +27,8 @@ type ModelAsset = {
 const MODEL_ASSETS: ModelAsset[] = [
   {
     id: "mdl-astro",
-    name: "Astronaut Dessert Dome",
-    category: "Desserts",
+    name: "Dome Pizza",
+    category: "Pizzas",
     glbUrl:
       "https://res.cloudinary.com/doo17a9l2/image/upload/v1762872988/text-to-3d-model_3d_7_pxkl2k.glb",
     posterUrl:
@@ -36,11 +36,11 @@ const MODEL_ASSETS: ModelAsset[] = [
     updatedAt: "2 hours ago",
     fileSize: "9.2 MB",
     polygonCount: "64k",
-    itemName: "Lunar Meringue Dome",
+    itemName: "Dome Chessy Pizza",
     itemImage:
       "https://res.cloudinary.com/doo17a9l2/image/upload/v1762940127/Screenshot_2025-11-12_143334_fzhp3e.png",
     itemDescription:
-      "A theatrical dessert reveal featuring citrus meringue and liquid nitrogen fog. Guests can rotate the dome to see plating angles.",
+      "Cheese PizzaMelty mozzarella, tangy sauce.The ultimate comfort food.",
     itemHighlights: [
       "Chef special",
       "Pairs with dry ice presentation",
@@ -106,7 +106,7 @@ const MODEL_ASSETS: ModelAsset[] = [
   // },
 ];
 
-const FILTERS = ["All", "Desserts", "Pasta", "Beverages", "Burgers"];
+const FILTERS = ["All", "Desserts", "Pasta", "Beverages", "Burgers","Pizzas"];
 
 export default function ModelLibraryPage() {
   const [activeFilter, setActiveFilter] = useState<string>("All");
