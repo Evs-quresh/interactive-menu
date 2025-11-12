@@ -19,7 +19,6 @@ type ModelViewerAttributes = DetailedHTMLProps<
   rotation?: string;
 };
 
-// augment the global JSX namespace so TSX recognizes <model-viewer />
 declare global {
   namespace JSX {
     interface IntrinsicElements {
@@ -27,5 +26,3 @@ declare global {
     }
   }
 }
-
-export {};

@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import type { ReactElement } from "react";
 import { NavLink } from "react-router-dom";
 
 import type { NavItem } from "../../config/navigation";
@@ -26,10 +27,7 @@ export default function Sidebar({
           isCollapsed ? "w-20" : "w-64"
         )}
       >
-        <Brand
-          isCollapsed={isCollapsed}
-          onToggleCollapse={onToggleCollapse}
-        />
+        <Brand isCollapsed={isCollapsed} onToggleCollapse={onToggleCollapse} />
         <nav
           className={clsx(
             "flex-1 space-y-1 pb-6",
@@ -159,7 +157,7 @@ type SidebarIconProps = {
 };
 
 function SidebarIcon({ name, label }: SidebarIconProps) {
-  const icons: Record<string, JSX.Element> = {
+  const icons: Record<string, ReactElement> = {
     chart: (
       <svg
         aria-hidden
@@ -337,5 +335,3 @@ function CollapseIcon({ collapsed }: { collapsed: boolean }) {
     </svg>
   );
 }
-
-

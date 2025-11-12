@@ -6,6 +6,9 @@ import "@google/model-viewer";
 
 import PageSection from "../../components/common/PageSection";
 
+// Use a runtime string tag cast to any so TypeScript doesn't require an IntrinsicElements entry
+const ModelViewer: any = "model-viewer";
+
 type ModelAsset = {
   id: string;
   name: string;
@@ -296,7 +299,7 @@ function ModelPreviewModal({
         </button>
 
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
-          <model-viewer
+          <ModelViewer
             src={model.glbUrl}
             poster={model.posterUrl}
             alt={`${model.name} 3D model`}
